@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>菜狗的博客</title>
-  
+  <icon>https://www.gravatar.com/avatar/4fa4bf4013a77c6033b59b6208e1bb52</icon>
   <subtitle>龙岩技术总监的小站</subtitle>
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://xnz233.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://xnz233.github.io/"/>
   <updated>2023-12-02T13:00:41.644Z</updated>
-  <id>http://example.com/</id>
+  <id>https://xnz233.github.io/</id>
   
   <author>
     <name>菜狗</name>
-    
+    <email>xiaoniuzai@longyan.online</email>
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2023/12/02/hello-world/"/>
-    <id>http://example.com/2023/12/02/hello-world/</id>
+    <link href="https://xnz233.github.io/2023/12/02/hello-world/"/>
+    <id>https://xnz233.github.io/2023/12/02/hello-world/</id>
     <published>2023-12-02T13:00:41.644Z</published>
     <updated>2023-12-02T13:00:41.644Z</updated>
     
