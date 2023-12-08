@@ -6,7 +6,7 @@
   <link href="https://xnz233.github.io/atom.xml" rel="self"/>
   
   <link href="https://xnz233.github.io/"/>
-  <updated>2023-12-02T13:00:41.644Z</updated>
+  <updated>2023-12-08T14:03:22.716Z</updated>
   <id>https://xnz233.github.io/</id>
   
   <author>
@@ -17,22 +17,26 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://xnz233.github.io/2023/12/02/hello-world/"/>
-    <id>https://xnz233.github.io/2023/12/02/hello-world/</id>
-    <published>2023-12-02T13:00:41.644Z</published>
-    <updated>2023-12-02T13:00:41.644Z</updated>
+    <title>Minecraft各平台下载途径大全</title>
+    <link href="https://xnz233.github.io/2023/12/08/3c09c7bd8df0/"/>
+    <id>https://xnz233.github.io/2023/12/08/3c09c7bd8df0/</id>
+    <published>2023-12-08T12:42:35.000Z</published>
+    <updated>2023-12-08T14:03:22.716Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="版本更新公告"><a href="#版本更新公告" class="headerlink" title="版本更新公告"></a>版本更新公告</h1><ul><li>V1.0  |  2023年8月2日创建</li><li>V1.1  |  2023年8月6日更新：<ol><li>新增PC端基岩版下载入口；</li><li>②更改安卓基岩版下载入口（更快、更方便）</li></ol></li><li>V1.3  |  2023年8月11日更新：  <ol><li>优化帖子界面、调整部分内容；</li><li>更换安卓JAVA版软件，新软件优化更好、操作更方便；</li><li>新增“常见问题解答”   栏目；</li></ol></li></ul><h1 id="常见问题解答"><a href="#常见问题解答" class="headerlink" title="常见问题解答"></a>常见问题解答</h1><blockquote><p>声明：解答为个人看法，如有不妥之处请指出。</p></blockquote><ul><li>国际版分为JAVA版和基岩版，这两个版本更新几乎同步，而网易版本质上是比国际版落后一个大版本的基岩版；</li><li>虽说是国际版，我们却很难在国内的大部分服务器见到外国人，所以不需要考虑这方面的问题！</li></ul><h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><h2 id="Windows系统💻"><a href="#Windows系统💻" class="headerlink" title="Windows系统💻"></a>Windows系统💻</h2><ol><li><p>JAVA 版：<a href="https://afdian.net/p/0164034c016c11ebafcb52540025c377">PCL启动器下载</a></p></li><li><p>基岩版：<strong>目前有可行途径</strong>有需要私聊群内柯南</p></li></ol><h2 id="Mac系统（linux系统等）"><a href="#Mac系统（linux系统等）" class="headerlink" title="Mac系统（linux系统等）"></a>Mac系统（linux系统等）</h2><p><del><strong>没找，可去B站查</strong></del></p><h2 id="Android系统（安卓）"><a href="#Android系统（安卓）" class="headerlink" title="Android系统（安卓）"></a>Android系统（安卓）</h2><ul><li>JAVA 版：<ul><li>（推荐）FCL：需要下载123网盘 下载速度快 目前版本1.0.6</li><li>PojavLauncher：</li></ul></li><li>基岩版：<ul><li>建议下载最新正式版而不是预览版</li></ul></li></ul><h2 id="iOS系统（苹果）"><a href="#iOS系统（苹果）" class="headerlink" title="iOS系统（苹果）"></a>iOS系统（苹果）</h2><ul><li>JAVA版（稍麻烦，需要电脑）：<a href="https://b23.tv/IBcmONh">B站视频教程</a></li><li>基岩版：<ol><li>微信关注公众号“苹果软件站”</li><li>输入6402 进入下载中心官网</li><li>按照提示操作（注意按照步骤来）<br><img src="/ios.jpg" alt="ios教程"></li></ol></li></ul>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+    <summary type="html">&lt;h1 id=&quot;版本更新公告&quot;&gt;&lt;a href=&quot;#版本更新公告&quot; class=&quot;headerlink&quot; title=&quot;版本更新公告&quot;&gt;&lt;/a&gt;版本更新公告&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;V1.0  |  2023年8月2日创建&lt;/li&gt;
+&lt;li&gt;V1.1  |  2023年8月6日</summary>
       
     
     
     
+    
+    <category term="mc" scheme="https://xnz233.github.io/tags/mc/"/>
     
   </entry>
   

@@ -2,9 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://xnz233.github.io/2023/12/02/hello-world/</loc>
+    <loc>https://xnz233.github.io/2023/12/08/3c09c7bd8df0/</loc>
     
-    <lastmod>2023-12-02</lastmod>
+    <lastmod>2023-12-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xnz233.github.io/categories/index.html</loc>
+    
+    <lastmod>2023-12-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xnz233.github.io/link/index.html</loc>
+    
+    <lastmod>2023-12-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xnz233.github.io/tags/index.html</loc>
+    
+    <lastmod>2023-12-08</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -13,11 +40,18 @@
 
   <url>
     <loc>https://xnz233.github.io/</loc>
-    <lastmod>2023-12-02</lastmod>
+    <lastmod>2023-12-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
+  
+  <url>
+    <loc>https://xnz233.github.io/tags/mc/</loc>
+    <lastmod>2023-12-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 
   
