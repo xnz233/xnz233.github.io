@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>菜狗的博客</title>
-  <icon>https://www.gravatar.com/avatar/4fa4bf4013a77c6033b59b6208e1bb52</icon>
+  <icon>https://www.gravatar.com/avatar/d765e77bdccbef2287a6885eab9c4fa7</icon>
   <subtitle>龙岩技术总监的小站</subtitle>
   <link href="https://cg.longyan.online/atom.xml" rel="self"/>
   
@@ -11,7 +11,7 @@
   
   <author>
     <name>菜狗</name>
-    <email>xiaoniuzai@longyan.online</email>
+    <email>caigou@longyan.online</email>
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
