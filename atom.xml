@@ -3,11 +3,11 @@
   <title>菜狗的博客</title>
   <icon>https://www.gravatar.com/avatar/4fa4bf4013a77c6033b59b6208e1bb52</icon>
   <subtitle>龙岩技术总监的小站</subtitle>
-  <link href="https://xnz233.github.io/atom.xml" rel="self"/>
+  <link href="https://cg.longyan.online/atom.xml" rel="self"/>
   
-  <link href="https://xnz233.github.io/"/>
+  <link href="https://cg.longyan.online/"/>
   <updated>2023-12-08T15:15:38.515Z</updated>
-  <id>https://xnz233.github.io/</id>
+  <id>https://cg.longyan.online/</id>
   
   <author>
     <name>菜狗</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Minecraft各平台下载途径大全</title>
-    <link href="https://xnz233.github.io/2023/12/08/3c09c7bd8df0/"/>
-    <id>https://xnz233.github.io/2023/12/08/3c09c7bd8df0/</id>
+    <link href="https://cg.longyan.online/2023/12/08/3c09c7bd8df0/"/>
+    <id>https://cg.longyan.online/2023/12/08/3c09c7bd8df0/</id>
     <published>2023-12-08T12:42:35.000Z</published>
     <updated>2023-12-08T15:15:38.515Z</updated>
     
@@ -36,7 +36,7 @@
     
     
     
-    <category term="mc" scheme="https://xnz233.github.io/tags/mc/"/>
+    <category term="mc" scheme="https://cg.longyan.online/tags/mc/"/>
     
   </entry>
   
