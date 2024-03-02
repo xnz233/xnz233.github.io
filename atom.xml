@@ -3,11 +3,11 @@
   <title>菜狗的博客</title>
   <icon>https://www.gravatar.com/avatar/d765e77bdccbef2287a6885eab9c4fa7</icon>
   <subtitle>龙岩技术总监的小站</subtitle>
-  <link href="https://xnz233.github.io/atom.xml" rel="self"/>
+  <link href="https://cg.longyan.online/atom.xml" rel="self"/>
   
-  <link href="https://xnz233.github.io/"/>
+  <link href="https://cg.longyan.online/"/>
   <updated>2024-01-30T19:00:43.907Z</updated>
-  <id>https://xnz233.github.io/</id>
+  <id>https://cg.longyan.online/</id>
   
   <author>
     <name>菜狗</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>开启IPv6的不完全教程</title>
-    <link href="https://xnz233.github.io/2024/01/31/ff6cb543e6b1/"/>
-    <id>https://xnz233.github.io/2024/01/31/ff6cb543e6b1/</id>
+    <link href="https://cg.longyan.online/2024/01/31/ff6cb543e6b1/"/>
+    <id>https://cg.longyan.online/2024/01/31/ff6cb543e6b1/</id>
     <published>2024-01-30T17:39:00.000Z</published>
     <updated>2024-01-30T19:00:43.907Z</updated>
     
@@ -34,14 +34,14 @@
     
     
     
-    <category term="网络" scheme="https://xnz233.github.io/tags/%E7%BD%91%E7%BB%9C/"/>
+    <category term="网络" scheme="https://cg.longyan.online/tags/%E7%BD%91%E7%BB%9C/"/>
     
   </entry>
   
   <entry>
     <title>IOS安装minecraft国际版指南</title>
-    <link href="https://xnz233.github.io/2024/01/30/009dc8b16f66/"/>
-    <id>https://xnz233.github.io/2024/01/30/009dc8b16f66/</id>
+    <link href="https://cg.longyan.online/2024/01/30/009dc8b16f66/"/>
+    <id>https://cg.longyan.online/2024/01/30/009dc8b16f66/</id>
     <published>2024-01-29T19:48:00.000Z</published>
     <updated>2024-01-29T21:47:50.796Z</updated>
     
@@ -59,14 +59,14 @@
     
     
     
-    <category term="mc" scheme="https://xnz233.github.io/tags/mc/"/>
+    <category term="mc" scheme="https://cg.longyan.online/tags/mc/"/>
     
   </entry>
   
   <entry>
     <title>Minecraft各平台下载途径大全</title>
-    <link href="https://xnz233.github.io/2023/12/08/3c09c7bd8df0/"/>
-    <id>https://xnz233.github.io/2023/12/08/3c09c7bd8df0/</id>
+    <link href="https://cg.longyan.online/2023/12/08/3c09c7bd8df0/"/>
+    <id>https://cg.longyan.online/2023/12/08/3c09c7bd8df0/</id>
     <published>2023-12-08T12:42:35.000Z</published>
     <updated>2024-01-29T21:46:32.654Z</updated>
     
@@ -83,7 +83,7 @@
     
     
     
-    <category term="mc" scheme="https://xnz233.github.io/tags/mc/"/>
+    <category term="mc" scheme="https://cg.longyan.online/tags/mc/"/>
     
   </entry>
   
