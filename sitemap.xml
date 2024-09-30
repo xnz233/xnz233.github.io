@@ -2,47 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://example.com/</loc>
     <lastmod>2024-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://example.com/categories/</loc>
     <lastmod>2024-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ipv6/</loc>
+    <loc>https://example.com/tags/ipv6/</loc>
     <lastmod>2024-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/</loc>
+    <loc>https://example.com/post/</loc>
     <lastmod>2024-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://example.com/tags/</loc>
     <lastmod>2024-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/p/%E5%BC%80%E5%90%AFipv6%E7%9A%84%E4%B8%8D%E5%AE%8C%E5%85%A8%E6%95%99%E7%A8%8B/</loc>
+    <loc>https://example.com/p/%E5%BC%80%E5%90%AFipv6%E7%9A%84%E4%B8%8D%E5%AE%8C%E5%85%A8%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2024-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/%E7%BD%91%E7%BB%9C/</loc>
+    <loc>https://example.com/categories/%E7%BD%91%E7%BB%9C/</loc>
     <lastmod>2024-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/p/ios%E5%AE%89%E8%A3%85minecraft%E5%9B%BD%E9%99%85%E7%89%88%E6%8C%87%E5%8D%97/</loc>
+    <loc>https://example.com/p/ios%E5%AE%89%E8%A3%85minecraft%E5%9B%BD%E9%99%85%E7%89%88%E6%8C%87%E5%8D%97/</loc>
     <lastmod>2024-01-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/mc/</loc>
+    <loc>https://example.com/tags/mc/</loc>
     <lastmod>2024-01-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/mc/</loc>
+    <loc>https://example.com/categories/mc/</loc>
     <lastmod>2024-01-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/p/minecraft%E5%90%84%E5%B9%B3%E5%8F%B0%E4%B8%8B%E8%BD%BD%E9%80%94%E5%BE%84%E5%A4%A7%E5%85%A8/</loc>
+    <loc>https://example.com/p/minecraft%E5%90%84%E5%B9%B3%E5%8F%B0%E4%B8%8B%E8%BD%BD%E9%80%94%E5%BE%84%E5%A4%A7%E5%85%A8/</loc>
     <lastmod>2024-01-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/links/</loc>
+    <loc>https://example.com/links/</loc>
   </url><url>
-    <loc>http://localhost:1313/page/</loc>
+    <loc>https://example.com/page/</loc>
   </url><url>
-    <loc>http://localhost:1313/%E5%85%B3%E4%BA%8E/</loc>
+    <loc>https://example.com/%E5%85%B3%E4%BA%8E/</loc>
   </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>https://example.com/archives/</loc>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>https://example.com/search/</loc>
   </url>
 </urlset>
