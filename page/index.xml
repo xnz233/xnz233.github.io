@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Pages on xnzcode&#39;s blog</title>
-        <link>https://example.com/page/</link>
+        <link>https://www.xnzcode.top/page/</link>
         <description>Recent content in Pages on xnzcode&#39;s blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>xnzcode</copyright><atom:link href="https://example.com/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <copyright>xnzcode</copyright><atom:link href="https://www.xnzcode.top/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Links</title>
-        <link>https://example.com/links/</link>
+        <link>https://www.xnzcode.top/links/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/links/</guid>
+        <guid>https://www.xnzcode.top/links/</guid>
         <description>&lt;!-- To use this feature, add `links` section to frontmatter.
 
 This page&#39;s frontmatter:
@@ -32,27 +32,27 @@ links:
         </item>
         <item>
         <title>关于</title>
-        <link>https://example.com/%E5%85%B3%E4%BA%8E/</link>
+        <link>https://www.xnzcode.top/%E5%85%B3%E4%BA%8E/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/%E5%85%B3%E4%BA%8E/</guid>
+        <guid>https://www.xnzcode.top/%E5%85%B3%E4%BA%8E/</guid>
         <description>&lt;p&gt;This is a test page for i18n support.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>归档</title>
-        <link>https://example.com/archives/</link>
+        <link>https://www.xnzcode.top/archives/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/archives/</guid>
+        <guid>https://www.xnzcode.top/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>搜索</title>
-        <link>https://example.com/search/</link>
+        <link>https://www.xnzcode.top/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/search/</guid>
+        <guid>https://www.xnzcode.top/search/</guid>
         <description></description>
         </item>
         
