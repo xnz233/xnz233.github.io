@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>网络 on xnzcode&#39;s blog</title>
+        <link>http://localhost:1313/categories/%E7%BD%91%E7%BB%9C/</link>
+        <description>Recent content in 网络 on xnzcode&#39;s blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>xnzcode</copyright>
+        <lastBuildDate>Wed, 31 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/%E7%BD%91%E7%BB%9C/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>开启IPv6的不完全教程</title>
+        <link>http://localhost:1313/p/%E5%BC%80%E5%90%AFipv6%E7%9A%84%E4%B8%8D%E5%AE%8C%E5%85%A8%E6%95%99%E7%A8%8B/</link>
+        <pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/%E5%BC%80%E5%90%AFipv6%E7%9A%84%E4%B8%8D%E5%AE%8C%E5%85%A8%E6%95%99%E7%A8%8B/</guid>
+        <description>&lt;h1 id=&#34;ipv6简介&#34;&gt;IPv6简介
+&lt;/h1&gt;&lt;h2 id=&#34;为什么要有ipv6&#34;&gt;为什么要有IPv6？
+&lt;/h2&gt;&lt;p&gt;在2019年11月26日，全球所有43亿个&lt;a class=&#34;link&#34; href=&#34;https://baike.baidu.com/item/IPv4%e5%9c%b0%e5%9d%80/16742558?fromModule=lemma_inlink&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;IPv4&lt;/a&gt;地址已分配完毕。IP地址就仿佛是网络上的身份证号码一般，是每个人登上互联网的基础。试想一下，如果一个国家的身份证号码被分配完了，会发生什么事？几个人共用一个身份证号？绝对不可能。
+于是IETF(互联网工程任务组)便迈出了创新的一步，新生的IPv6便诞生了。&lt;/p&gt;
+&lt;h2 id=&#34;什么是ipv6&#34;&gt;什么是IPv6？
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;IPv6是英文“Internet Protocol Version 6”（互联网协议第6版）的缩写，是互联网工程任务组（IETF）设计的用于替代IPv4的下一代IP协议，其地址数量号称可以为全世界的每一粒沙子编上一个地址。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;由于IPv4最大的问题在于网络地址资源不足，严重制约了互联网的应用和发展。IPv6的使用，不仅能解决网络地址资源数量的问题，而且也解决了多种接入设备连入互联网的障碍。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;开启ipv6&#34;&gt;开启IPv6！
+&lt;/h1&gt;&lt;h2 id=&#34;前提&#34;&gt;前提
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;您的设备（路由器，光猫等）必须支持IPv6协议&lt;/li&gt;
+&lt;li&gt;光猫打开了IPv6的功能(三大运营商默认开启)&lt;/li&gt;
+&lt;li&gt;IPv6防火墙要合理配置&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;步骤&#34;&gt;步骤
+&lt;/h2&gt;&lt;h3 id=&#34;光猫&#34;&gt;光猫
+&lt;/h3&gt;&lt;p&gt;查看光猫后台。近年来，随着各大运营商的管理越来越严格，曾经流传在网上的“光猫默认超级密码”在大部分地区都已失效了，但是还是可以上试一下能否用超级用户登录上光猫。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;中国移动&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;中国电信&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;中国联通&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;超级用户&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;CMCCAdmin&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;telecomadmin&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;CUAdmin&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;超级密码&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;aDm8H%MdA&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;nE7jA%5m&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;CUAdmin&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;如果你成功登录的话，那么恭喜你，你只需要执行以下几步：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;点击：网络-&amp;gt;宽带设置&lt;/li&gt;
+&lt;li&gt;在连接名称中选择第二个&lt;/li&gt;
+&lt;li&gt;IP协议为IPv4/IPv6&lt;/li&gt;
+&lt;li&gt;点击：安全-&amp;gt;防火墙-&amp;gt;IPv6防火墙&lt;/li&gt;
+&lt;li&gt;关闭“使能IPv6防火墙控制转发报文”&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;路由&#34;&gt;路由
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;您可以自己的路由器寻找是否有&lt;strong&gt;IPv6&lt;/strong&gt;相关设置，有的话请开启它&lt;/li&gt;
+&lt;li&gt;如果有IPv6防火墙，请关掉它（&lt;strong&gt;注意：这属于危险行为！请务必做好网络安全措施！&lt;/strong&gt;)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;测试&#34;&gt;测试
+&lt;/h3&gt;&lt;p&gt;在您连接了配置后的路由的电脑上打开这几个网址：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ipw.cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;IP查询&lt;/a&gt;:出现IPv6地址代表可以上IPv6协议的网络了！（请把IPv6地址复制下来）&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://ipw.cn/ipv6ping/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;IPv6 Ping 测试&lt;/a&gt;:把上个链接所获取的IPv6地址粘贴进去测试，出现解析IP及接收包数即配置完毕！（可被外网访问）
+&lt;img src=&#34;https://www.freeimg.cn/i/2024/01/31/65b9435ae9ff9.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;IPv6_ping.JPG&#34;
+	
+	
+&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;提示&#34;&gt;提示
+&lt;/h1&gt;&lt;p&gt;运营商通常会封杀 80 443 8080等常用端口，建议各位伙伴们避开特征明显的端口哦！&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Enjoy ~&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
