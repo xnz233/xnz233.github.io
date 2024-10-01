@@ -7,7 +7,109 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>xnzcode</copyright>
-        <lastBuildDate>Wed, 31 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.xnzcode.top/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.xnzcode.top/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>CUPS: 搭建自己的打印机服务器</title>
+        <link>https://www.xnzcode.top/p/cups-%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E6%89%93%E5%8D%B0%E6%9C%BA%E6%9C%8D%E5%8A%A1%E5%99%A8/</link>
+        <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://www.xnzcode.top/p/cups-%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E6%89%93%E5%8D%B0%E6%9C%BA%E6%9C%8D%E5%8A%A1%E5%99%A8/</guid>
+        <description>&lt;h1 id=&#34;介绍&#34;&gt;介绍
+&lt;/h1&gt;&lt;h2 id=&#34;cups-是什么&#34;&gt;CUPS 是什么？
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;CUPS 是许多不同 Linux 发行版上使用的打印系统。它的使用非常广泛，因为它已成为大多数流行 Linux 发行版上的标准打印管理器。它充当打印后台处理程序、调度程序、打印作业管理器，并且可以存储大量本地或网络打印机的信息。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;为什么我要搭建它&#34;&gt;为什么我要搭建它？
+&lt;/h2&gt;&lt;p&gt;我个人原因是因为手头有闲置的arm板子，并且家里的打印机也比较老，不能联网。通过搭建CUPS,我就可以在免开电脑的情况下用手机完成打印任务啦，并且家人也可随时使用。CUPS的跨平台也提供了很大的便利性。&lt;/p&gt;
+&lt;h1 id=&#34;搭建&#34;&gt;搭建
+&lt;/h1&gt;&lt;h2 id=&#34;材料&#34;&gt;材料
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;一台linux设备
+&lt;ul&gt;
+&lt;li&gt;有USB口&lt;/li&gt;
+&lt;li&gt;低功耗(可选)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;一条打印机线(一般是type A)&lt;/li&gt;
+&lt;li&gt;一台打印机(&lt;del&gt;这不是废话吗QAQ&lt;/del&gt;)&lt;/li&gt;
+&lt;li&gt;一颗爱折腾的心～&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;安装调整cups&#34;&gt;安装调整CUPS
+&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;本部分使用Debian/Ubuntu进行示范&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;CUPS在各大发行版的包管理器皆可下载安装&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt install cups ghostscript avahi-daemon
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;安装之后就可以启动了再开放远程管理权限和共享&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo systemctl &lt;span class=&#34;nb&#34;&gt;enable&lt;/span&gt; cups &lt;span class=&#34;c1&#34;&gt;# 开机自启动&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo systemctl start cups
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo cupsctl --remote-admin
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo cupsctl --share-printers
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo cupsctl -U admin &lt;span class=&#34;c1&#34;&gt;#将admin替换成c你当前用户名&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;安装打印机驱动&#34;&gt;安装打印机驱动
+&lt;/h3&gt;&lt;p&gt;&lt;del&gt;众所周知，在linux环境下驱动都很麻烦&lt;/del&gt;
+首先安装&lt;code&gt;foomatic&lt;/code&gt;这个包，内置了大部分驱动&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo apt install foomatic
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;如果依旧没有可以到&lt;a class=&#34;link&#34; href=&#34;https://www.openprinting.org/printers&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;OpenPrinting&lt;/a&gt;查找自己的打印机型号，一般都有对应的驱动&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;HP的打印机可以安装&lt;code&gt;hplib&lt;/code&gt;进行驱动管理（不太推荐,没驱动再用）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;配置cups&#34;&gt;配置CUPS
+&lt;/h3&gt;&lt;p&gt;cups启动后会在631端口打开&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.xnzcode.top/cups.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;管理界面&#34;
+	
+	
+&gt;
+在Add Printer选项中选择你用USB连接好的打印机 ,并选好对应的型号，就可以进行共享&lt;/p&gt;
+&lt;h2 id=&#34;如何使用&#34;&gt;如何使用
+&lt;/h2&gt;&lt;h3 id=&#34;windows&#34;&gt;Windows
+&lt;/h3&gt;&lt;p&gt;Win+i 进入设置- 设备-打印机-刷新-添加打印机-我的设备不在列表-按名称选择共享打印机-粘贴URL
+&lt;code&gt;http://&amp;lt;server_ip&amp;gt;:631/printers/&amp;lt;device_name&amp;gt;&lt;/code&gt;
+&lt;code&gt;&amp;lt;server_ip&amp;gt;&lt;/code&gt;是打印机服务器IP
+&lt;code&gt;&amp;lt;device_name&amp;gt;&lt;/code&gt;需要进入WEB管理页面自行查看&lt;/p&gt;
+&lt;h3 id=&#34;android&#34;&gt;Android
+&lt;/h3&gt;&lt;p&gt;可以尝试手机自带的网络打印功能，如华为手机在同一局域网下可以直接分享给打印机&lt;/p&gt;
+&lt;h3 id=&#34;ios&#34;&gt;IOS
+&lt;/h3&gt;&lt;p&gt;CUPS项目本身就是由苹果公司牵头开发，虽然已经被被別的组织接手，但苹果的设备原生支持CUPS的IPP共享协议，也需要在同一局域网下&lt;/p&gt;
+&lt;h1 id=&#34;结语&#34;&gt;结语
+&lt;/h1&gt;&lt;p&gt;那么CUPS的介绍就到这里，可能还有些细节不够完善，也欢迎在评论区交流～
+另外，祝大家国庆快乐～&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Enjoy ~&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>开启IPv6的不完全教程</title>
         <link>https://www.xnzcode.top/p/%E5%BC%80%E5%90%AFipv6%E7%9A%84%E4%B8%8D%E5%AE%8C%E5%85%A8%E6%95%99%E7%A8%8B/</link>
         <pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate>
