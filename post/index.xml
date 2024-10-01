@@ -81,14 +81,18 @@
 &lt;/blockquote&gt;
 &lt;h3 id=&#34;配置cups&#34;&gt;配置CUPS
 &lt;/h3&gt;&lt;p&gt;cups启动后会在631端口打开&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://www.xnzcode.top/cups.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://www.xnzcode.top/p/cups-%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E6%89%93%E5%8D%B0%E6%9C%BA%E6%9C%8D%E5%8A%A1%E5%99%A8/cups.png&#34;
+	width=&#34;1589&#34;
+	height=&#34;682&#34;
+	srcset=&#34;https://www.xnzcode.top/p/cups-%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E6%89%93%E5%8D%B0%E6%9C%BA%E6%9C%8D%E5%8A%A1%E5%99%A8/cups_hu637246500140338391.png 480w, https://www.xnzcode.top/p/cups-%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E6%89%93%E5%8D%B0%E6%9C%BA%E6%9C%8D%E5%8A%A1%E5%99%A8/cups_hu12935356820294958980.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;管理界面&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;232&#34;
+		data-flex-basis=&#34;559px&#34;
 	
 &gt;
 在Add Printer选项中选择你用USB连接好的打印机 ,并选好对应的型号，就可以进行共享&lt;/p&gt;
